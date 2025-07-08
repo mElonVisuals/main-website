@@ -1,14 +1,19 @@
 {
-  "name": "melonvisuals.me",
-  "version": "1.0.0",
-  "description": "MelonVisuals website",
+  "name": "melonvisuals-website",
+  "version": "1.0.1",
+  "description": "MelonVisuals.me static website served by Node.js Express",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "website",
+    "express",
+    "nodejs",
+    "static"
+  ],
+  "author": "MelonVisuals.me",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"
