@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /js/
+Disallow: /css/
+Disallow: /backend/ # If your backend files are publicly accessible
+Sitemap: https://melonvisuals.me/sitemap.xml
