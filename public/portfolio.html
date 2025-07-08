@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="View the impressive portfolio of MelonVisuals.me, showcasing our best GTA5/FiveM cinematics, server trailers, and custom visual projects.">
+    <meta name="keywords" content="gaming portfolio, GTA5 cinematics examples, FiveM trailer examples, video editing showcase, motion graphics portfolio, client work">
+    <title>Portfolio - MelonVisuals.me</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rajdhani:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="MelonVisuals.me Logo"></a>
+            </div>
+            <nav class="main-nav">
+                <button class="hamburger-menu" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero-section portfolio-hero">
+            <div class="container">
+                <h1 class="fade-in-up">Our Portfolio</h1>
+                <p class="fade-in-up delay-1">A showcase of our finest cinematic and visual creations for the gaming world.</p>
+            </div>
+        </section>
+
+        <section class="portfolio-grid-section section-padding">
+            <div class="container">
+                <h2 class="section-title fade-in">Our Latest Work</h2>
+                <div class="portfolio-filters fade-in delay-1">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="gta5">GTA5 Cinematics</button>
+                    <button class="filter-btn" data-filter="fivem">FiveM Trailers</button>
+                    <button class="filter-btn" data-filter="motion-graphics">Motion Graphics</button>
+                </div>
+                <div class="portfolio-grid filterable-grid">
+                    <div class="portfolio-item fade-in delay-1" data-category="gta5">
+                        <div class="video-container">
+                            <iframe src="https://www.youtube.com/embed/YOUR_YOUTUBE_VIDEO_ID_1?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+                        </div>
+                        <div class="overlay">
+                            <h3>Project Nightfall</h3>
+                            <p>GTA5 Cinematic - Atmospheric Story</p>
+                            <button class="view-project-details" data-project-id="project1">Details</button>
+                        </div>
+                    </div>
+                    <div class="portfolio-item fade-in delay-2" data-category="fivem">
+                        <div class="video-container">
+                            <iframe src="https://www.youtube.com/embed/YOUR_YOUTUBE_VIDEO_ID_2?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+                        </div>
+                        <div class="overlay">
+                            <h3>Liberty City RP Trailer</h3>
+                            <p>FiveM Server Trailer - High Octane</p>
+                            <button class="view-project-details" data-project-id="project2">Details</button>
+                        </div>
+                    </div>
+                    <div class="portfolio-item fade-in delay-3" data-category="motion-graphics">
+                        <div class="video-container">
+                            <iframe src="https://www.youtube.com/embed/YOUR_YOUTUBE_VIDEO_ID_3?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+                        </div>
+                        <div class="overlay">
+                            <h3>Esports Intro Package</h3>
+                            <p>Motion Graphics - Dynamic Branding</p>
+                            <button class="view-project-details" data-project-id="project3">Details</button>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </section>
+
+        <div id="project-lightbox" class="lightbox">
+            <div class="lightbox-content">
+                <span class="close-btn">&times;</span>
+                <div id="lightbox-project-details">
+                    </div>
+            </div>
+        </div>
+
+        <section class="client-logos-section section-padding bg-darker">
+            <div class="container">
+                <h2 class="section-title fade-in">Trusted by Gaming Communities</h2>
+                <div class="client-logos-grid fade-in delay-1">
+                    <img src="images/client-logos/client1.png" alt="Client Logo 1" loading="lazy">
+                    <img src="images/client-logos/client2.png" alt="Client Logo 2" loading="lazy">
+                    <img src="images/client-logos/client3.png" alt="Client Logo 3" loading="lazy">
+                    <img src="images/client-logos/client4.png" alt="Client Logo 4" loading="lazy">
+                    </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo.png" alt="MelonVisuals Logo">
+                    <p>&copy; 2025 MelonVisuals.me. All rights reserved.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Connect With Us</h4>
+                    <div class="social-icons">
+                        <a href="https://discord.gg/yourdiscordlink" target="_blank" aria-label="Join us on Discord"><img src="images/icons/discord-icon.png" alt="Discord"></a>
+                        <a href="https://instagram.com/yourinstagram" target="_blank" aria-label="Follow us on Instagram"><img src="images/icons/instagram-icon.png" alt="Instagram"></a>
+                        <a href="https://twitter.com/yourtwitter" target="_blank" aria-label="Follow us on Twitter"><img src="images/icons/twitter-icon.png" alt="Twitter"></a>
+                        <a href="https://youtube.com/youryoutube" target="_blank" aria-label="Subscribe to our YouTube"><img src="images/icons/youtube-icon.png" alt="YouTube"></a>
+                        <a href="https://tiktok.com/@yourtiktok" target="_blank" aria-label="Follow us on TikTok"><img src="images/icons/tiktok-icon.png" alt="TikTok"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script>
+        // Placeholder for project details data
+        const projectData = {
+            project1: {
+                title: "Project Nightfall",
+                category: "GTA5 Cinematic",
+                description: "An atmospheric cinematic showcasing a custom GTA5 roleplay scenario, focusing on detailed character interactions and environmental storytelling. Utilized custom camera tools and advanced post-processing.",
+                tech: "Rockstar Editor, Adobe Premiere Pro, DaVinci Resolve",
+                client: "Liberty Roleplay Community",
+                videoEmbed: '<iframe src="https://www.youtube.com/embed/YOUR_YOUTUBE_VIDEO_ID_1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+            },
+            project2: {
+                title: "Liberty City RP Trailer",
+                category: "FiveM Server Trailer",
+                description: "A high-octane promotional trailer for a new FiveM roleplay server, highlighting key features like custom vehicles, unique jobs, and active community events.",
+                tech: "FiveM Capture Tools, Adobe Premiere Pro, After Effects",
+                client: "Liberty City RP",
+                videoEmbed: '<iframe src="https://www.youtube.com/embed/YOUR_YOUTUBE_VIDEO_ID_2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+            },
+            project3: {
+                title: "Esports Intro Package",
+                category: "Motion Graphics",
+                description: "A dynamic intro and outro package designed for an esports team's YouTube channel, featuring glitch effects, neon animations, and custom sound design.",
+                tech: "Adobe After Effects, Cinema 4D (for some elements)",
+                client: "Pixel Gladiators Esports",
+                videoEmbed: '<iframe src="https://www.youtube.com/embed/YOUR_YOUTUBE_VIDEO_ID_3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+            }
+            // Add more project data as needed
+        };
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            const portfolioItems = document.querySelectorAll('.portfolio-item');
+            const lightbox = document.getElementById('project-lightbox');
+            const lightboxCloseBtn = lightbox.querySelector('.close-btn');
+            const lightboxProjectDetails = document.getElementById('lightbox-project-details');
+
+            // Portfolio Filtering
+            filterButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const filter = button.dataset.filter;
+
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    button.classList.add('active');
+
+                    portfolioItems.forEach(item => {
+                        if (filter === 'all' || item.dataset.category === filter) {
+                            item.style.display = 'block'; // Or 'flex' depending on your CSS display
+                            item.classList.add('fade-in'); // Re-trigger fade-in for visible items
+                        } else {
+                            item.style.display = 'none';
+                            item.classList.remove('fade-in');
+                        }
+                    });
+                });
+            });
+
+            // Lightbox for Project Details
+            document.querySelectorAll('.view-project-details').forEach(button => {
+                button.addEventListener('click', () => {
+                    const projectId = button.dataset.projectId;
+                    const project = projectData[projectId];
+
+                    if (project) {
+                        lightboxProjectDetails.innerHTML = `
+                            <h2>${project.title}</h2>
+                            <p class="category">${project.category}</p>
+                            <div class="lightbox-video-embed">${project.videoEmbed}</div>
+                            <p>${project.description}</p>
+                            <p><strong>Technologies Used:</strong> ${project.tech}</p>
+                            <p><strong>Client:</strong> ${project.client}</p>
+                        `;
+                        lightbox.classList.add('active');
+                    }
+                });
+            });
+
+            lightboxCloseBtn.addEventListener('click', () => {
+                lightbox.classList.remove('active');
+                lightboxProjectDetails.innerHTML = ''; // Clear content on close
+            });
+
+            lightbox.addEventListener('click', (e) => {
+                if (e.target === lightbox) {
+                    lightbox.classList.remove('active');
+                    lightboxProjectDetails.innerHTML = '';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
